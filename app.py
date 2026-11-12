@@ -22,7 +22,7 @@ limiter = Limiter(
     storage_uri="memory://",
 )
 
-client = genai.Client(api_key=os.environ["AQ.Ab8RN6JqXZzD6oAV1b4efMTFQitNnCmP94p2Byxx_I5kDvoAyw"])
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 
 TOPICS = [
